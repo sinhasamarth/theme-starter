@@ -5,7 +5,9 @@ import {Images} from 'theme-ui'
 function Home() {
     return (
       <>
+      <Workflow/>
       <Juding/>
+      <FAQ/>
       
       </>
     )

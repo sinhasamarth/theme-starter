@@ -2,37 +2,40 @@ import {Box, Container, Heading,Flex,Card, Paragraph} from 'theme-ui'
 function Home() {
     return (
     
-        <Container variant ='narrow' mt ='10px'>
+        <Container mt ='10px'>
             
-            <Heading m='30px' as= 'h2' variant='title' style={{textAlign : "center"}} >Judging </Heading> 
-            <Card variant="interactive">
-            <Container variant="copy" p ='10px'>
-                <Flex>
-                    <img width='50em'src="https://img.icons8.com/fluent/128/000000/creativity.png" />
-                    <Heading ml='30px' mt='auto' mb='auto'>Creativity</Heading>
-                    </Flex>
-            </Container>
+            <Heading m='30px' as= 'h2' variant='title' >Judging </Heading> 
+            <Container  p="30px"  >
+                <Card>
+                <Container  p ='10px'>
+                    <Flex>
+                        <img width='50em'src="https://img.icons8.com/fluent/128/000000/creativity.png" />
+                        <Heading ml='30px' mt='auto' mb='auto'>Creativity</Heading>
+                        </Flex>
+                </Container>
 
-            <Container variant="copy" p ='10px'>
-                <Flex>
-                    <img width='50em'src="https://img.icons8.com/fluent/128/000000/verified-badge.png" />
-                    <Heading ml='30px' mt='auto' mb='auto'>Ease To Use</Heading>
-                    </Flex>
-            </Container>
+                <Container p ='10px'>
+                    <Flex>
+                        <img width='50em'src="https://img.icons8.com/fluent/128/000000/verified-badge.png" />
+                        <Heading ml='30px' mt='auto' mb='auto'>Ease To Use</Heading>
+                        </Flex>
+                </Container>
 
-            <Container variant="copy" p ='10px'>
-                <Flex>
-                    <img width='50em'src="https://img.icons8.com/fluent/128/000000/cloud-connection.png" />
-                    <Heading ml='30px' ml='30px'mt='auto' mb='auto'>Connection With Theme</Heading>
-                    </Flex>
-            </Container>
-            <Container variant="copy" p ='10px'>
+                <Container p ='10px'>
+                    <Flex>
+                        <img width='50em'src="https://img.icons8.com/fluent/128/000000/cloud-connection.png" />
+                        <Heading ml='30px' ml='30px'mt='auto' mb='auto'>Connection With Theme</Heading>
+                        </Flex>
+                </Container>
+                <Container  p ='10px'>
                 <Flex>
                     <img width='50em' src="https://img.icons8.com/fluent/48/000000/presentation.png"/>
                     <Heading ml='30px' mt='auto' mb='auto'>Presentation</Heading>
                     </Flex>
             </Container>
             </Card>
+            </Container>
+            
         </Container>
         
     
