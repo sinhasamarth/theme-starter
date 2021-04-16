@@ -4,11 +4,13 @@ import FAQ from '../components/FAQ';
 import Header from '../components/header'
 import Footer from '../components/footer'
 import Sponsor from '../components/Sponsor' 
+import Banner from '../components/banner' 
 
 function Home() {
     return (
       <>
-      <Header />
+      
+      <Banner/>
       <Workflow/>
       <Juding/>
       <FAQ/>
