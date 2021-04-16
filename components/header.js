@@ -9,17 +9,11 @@ export default function header() {
         <Container variant='wide' >
         <Box  p = '15px'>
          
-        <Flex>
-        <Grid > 
-        <Box  ml = 'auto' mt='auto' mb ='auto'>
-          <Button margin = '5px' variant="primary btn">About Us</Button>
-          <Button margin = '5px' variant="primary btn">Registration</Button>
-          <Button margin = '5px' variant="primary btn">FAQ </Button>
-          <Button margin = '5px' variant="primary btn">Sponsors</Button>
+    <Flex>
+        
           
-        </Box>
-        </Grid>
-        </Flex>
+        
+        </Flex> 
         </Box>  
         
         </Container>

@@ -19,7 +19,7 @@ background: 'linear-gradient(to bottom, #1c92d2, #fff)', width: '100%',height:'4
             variant='title' >
                 Ideathon
             </Heading>
-            
+            <h4 mt='auto' mb='auto'style={{textAlign:'center'}}>#HACKIDEATHON</h4>
         </div>
         
     </>    
