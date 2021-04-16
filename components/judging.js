@@ -4,7 +4,7 @@ function Home() {
     
         <Container mt ='10px'>
             
-            <Heading m='30px' as= 'h2' variant='title' >Judging </Heading> 
+            <Heading m='30px' as= 'h2' variant='EYEBROW' >Judging </Heading> 
             <Container  p="30px"  >
                 <Card>
                 <Container  p ='10px'>

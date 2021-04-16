@@ -2,7 +2,9 @@ import Workflow from '../components/Workflow';
 import Juding from '../components/judging';
 import FAQ from '../components/FAQ';
 import Header from '../components/header'
-import {Images} from 'theme-ui'
+import Footer from '../components/footer'
+import Sponsor from '../components/Sponsor' 
+
 function Home() {
     return (
       <>
@@ -10,7 +12,8 @@ function Home() {
       <Workflow/>
       <Juding/>
       <FAQ/>
-      
+      <Sponsor />
+      <Footer/>
       </>
     )
   }
