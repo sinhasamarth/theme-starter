@@ -2,9 +2,9 @@ import {Box, Container, Heading,Flex,Card, Paragraph} from 'theme-ui'
 function Home() {
     return (
     
-        <Container mt ='10px'>
+        <Container>
             
-            <Heading m='30px' as= 'h2' variant='EYEBROW' >Judging </Heading> 
+            <Heading m='30px' mt='40px' as= 'h2' variant='headline' >Judging </Heading> 
             <Container  p="30px"  >
                 <Card>
                 <Container  p ='10px'>

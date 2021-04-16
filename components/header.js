@@ -8,6 +8,7 @@ export default function header() {
         <div>
         <Container variant='wide' >
         <Box  p = '15px'>
+          <Heading variant="title"m = "10px">Ideathon</Heading>
         <Flex>
         <Grid > 
         <Box  ml = 'auto' mt='auto' mb ='auto'>
