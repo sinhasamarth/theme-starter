@@ -1,10 +1,12 @@
-import Workflow from '../components/Workflow/index';
-import Juding from '../components/Juding/index';
-import FAQ from '../components/FAQ/index';
+import Workflow from '../components/Workflow';
+import Juding from '../components/judging';
+import FAQ from '../components/FAQ';
+import Header from '../components/header'
 import {Images} from 'theme-ui'
 function Home() {
     return (
       <>
+      <Header />
       <Workflow/>
       <Juding/>
       <FAQ/>

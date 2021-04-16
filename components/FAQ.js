@@ -4,13 +4,13 @@ function Home() {
     
         <Container p="3em" >
             <Flex >
-                <img width='100em' src="https://img.icons8.com/color/200/000000/stackexchange.png"/>        
-                 <Heading ml="30px"mt="auto" mb='auto' variant="title">FAQ </Heading>
+                <img width='50em' src="https://img.icons8.com/color/200/000000/stackexchange.png"/>        
+                 <Heading ml="30px"mt="auto" mb='auto' variant="headline">FAQ </Heading>
             </Flex>
 
-            <Card variant="interactive" m="2em">
+            <Card variant="interactive" m="3em">
                 <Flex>
-                <img width="40em" height="40em" src="https://img.icons8.com/fluent/40/000000/plus-math.png"/>
+                <img width="30em" height="30em" src="https://img.icons8.com/fluent/40/000000/plus-math.png"/>
                 <Container>
                     <Heading ml="30px"mt="auto" mb='auto' variant="headline">Question 1  </Heading>
                     <Heading m="30px"  variant="subtitle">Ans 1  </Heading>
@@ -19,12 +19,12 @@ function Home() {
                 
             </Card>
 
-            <Card variant="interactive" m="2em">
+            <Card variant="interactive" m="3em">
                 <Flex>
-                <img width="40em" height="40em" src="https://img.icons8.com/fluent/40/000000/plus-math.png"/>
+                <img width="30em" height="30em" src="https://img.icons8.com/fluent/40/000000/plus-math.png"/>
                 <Container>
-                    <Heading ml="30px"mt="auto" mb='auto' variant="headline">Question 1  </Heading>
-                    <Heading m="30px"  variant="subtitle">Ans 1  </Heading>
+                    <Heading ml="30px"mt="auto" mb='auto' variant="headline">Question 2  </Heading>
+                    <Heading m="30px"  variant="subtitle">Ans 2  </Heading>
                     </Container>
                 </Flex>
                 
